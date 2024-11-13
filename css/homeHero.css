@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    min-height: 100vh;
+    background-position: center;
+}
+
+
+
+/* body */
+section {
+    background-color: rgb(0, 0, 0);
+    padding: 5% 5%;
+}
+
+.main-home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/1st\ cover.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding-top: 21%;
+}
+
+.main-text h5 {
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1 {
+    color: aliceblue;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+.main-text p {
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    appearance: none;
+    background-color: black;
+    color: rgb(229, 231, 232);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+.main-btn:hover {
+    background-color: aliceblue;
+    color: #000000;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+        0 0 25px rgb(0, 0, 0);
+
+
+}
+
+/* body */
+
+/* trending product section */
+
+
+.trending-product h3 {
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+    color: gold;
+    font-size: 33px;
+    text-align: center;
+}
+
+.trending-product span {
+    color: white;
+}
+
+.trending-product a {
+    text-decoration: none;
+
+}
+
+.trending-product ul {
+    list-style-type: none;
+}
+
+.item_coloum {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box {
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px;
+
+}
+
+.slide-img {
+    height: 450px;
+    position: relative;
+
+
+}
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.details-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: rgb(99, 83, 83);
+    font-family: calibri;
+
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+}
+
+.type a {
+    color: rgb(255, 255, 255);
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+}
+
+.text span {
+    color: rgb(255, 255, 255);
+}
+
+.type span {
+    color: rgb(255, 255, 255);
+}
+
+.price {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.0rem;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: #5f584ba5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buy-btn {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 241, 241);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: calibri;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.2);
+
+}
+
+.buy-btn:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.3s;
+}
+
+.overlay {
+    visibility: hidden;
+
+}
+
+.slide-img:hover .overlay {
+    visibility: visible;
+    animation: fade 0.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* trending product section */
+
+/* categery product section */
+
+
+/* categery product section */
+
+.hcphoto {
+    width: 100%;
+    padding: 4px;
+    margin: auto;
+}
+
+.hctext h4 {
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+
+}

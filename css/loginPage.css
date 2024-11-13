@@ -1,0 +1,176 @@
+/*Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////// login page ////////////////////////////////////////////*/
+
+.account-page {
+    padding: 50px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.container-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-container {
+    background: #fff;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0;
+    overflow: hidden;
+
+}
+
+.container-1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+/* span style*/
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+.form-container form {
+    max-width: 400px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: 1s;
+
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 8px 13px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 1px 1px;
+    background-color: coral;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+#loginForm {
+    left: -400px;
+}
+
+#registerForm {
+    left: 0;
+    margin-top: -34px;
+}
+
+form a {
+    font-size: 15px;
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: 1s;
+}
+
+#heade2 ul li a {
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// error handling /////////////////////////////////////////////////////*/
+.alert {
+    padding: 5px 0px;
+    background-color: #f44336;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    border-radius: 40px;
+    margin-left: 35px;
+    margin-right: 43px;
+    font-size: 18px;
+}
+
+.alertSuccess {
+    padding: 5px 0px;
+    background-color: #14ce4c;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    border-radius: 40px;
+    margin-left: 35px;
+    margin-right: 43px;
+    font-size: 18px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: rgb(233, 227, 227);
+}
