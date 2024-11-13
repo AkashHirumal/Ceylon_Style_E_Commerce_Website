@@ -6,25 +6,25 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.postimg.cc/bN6QvJkn/HOME-1.jpg" alt="project-screenshot" width="150" height="400/">
+<img src="https://i.postimg.cc/bN6QvJkn/HOME-1.jpg" alt="project-screenshot" width="200" height="400/">
 
-<img src="https://i.postimg.cc/KzL6ZwWK/HOME-2.jpg" alt="project-screenshot" width="509" height="400/">
+<img src="https://i.postimg.cc/KzL6ZwWK/HOME-2.jpg" alt="project-screenshot" width="300" height="400/">
 
 <img src="https://i.postimg.cc/h4mDj3m1/login.jpg" alt="project-screenshot" width="300" height="400/">
 
 <img src="https://i.postimg.cc/ncsLvcNB/register.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/5t8gjJxM/HOME.jpg" alt="project-screenshot" width="200" height="400/">
+<img src="https://i.postimg.cc/5t8gjJxM/HOME.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/mDwSNSzX/HOME-5.jpg" alt="project-screenshot" width="170" height="400/">
+<img src="https://i.postimg.cc/mDwSNSzX/HOME-5.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/mkpNK2S7/HOME-3.jpg" alt="project-screenshot" width="240" height="400/">
+<img src="https://i.postimg.cc/mkpNK2S7/HOME-3.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/8cFQ2sSS/HOME-7.jpg" alt="project-screenshot" width="200" height="400/">
+<img src="https://i.postimg.cc/8cFQ2sSS/HOME-7.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/VsSNQk4v/HOME-4.jpg" alt="project-screenshot" width="200" height="400/">
+<img src="https://i.postimg.cc/VsSNQk4v/HOME-4.jpg" alt="project-screenshot" width="300" height="400/">
 
-<img src="https://i.postimg.cc/BvYJkrK2/PROFILE.jpg" alt="project-screenshot" width="134" height="400/">
+<img src="https://i.postimg.cc/BvYJkrK2/PROFILE.jpg" alt="project-screenshot" width="300" height="400/">
 
   
   
